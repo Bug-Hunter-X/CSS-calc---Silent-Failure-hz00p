@@ -1,0 +1,9 @@
+The solution is to ensure the correct syntax is used in `calc()`.  Always include the necessary operators (+, -, *, /) between values.  For example, to calculate a width that is 2 times 200px, it should be `width: calc(200px * 2);`.
+
+```css
+/* bugSolution.css */
+#element {
+  width: calc(200px * 2);
+  height: 100px;
+}
+```
